@@ -1,4 +1,4 @@
-// import img from '../Images.png'
+import logo from '../Images/logo.gif'
 import { useContext } from 'react';
 import {
     Box,
@@ -7,7 +7,7 @@ import {
     useDisclosure,
     Stack,
     Text,
-    
+    Image,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
@@ -40,7 +40,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                     />
                     <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
                         <Box p='5px'>
-                            {/* <Image width={{ base: '30px', md: '40px' }} src={img} /> */}
+                            <Image width={{ base: '60px', md: '60px' }} src={logo} />
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
                             justifyContent='space-between' alignItems='center' color='' fontWeight='650'>
