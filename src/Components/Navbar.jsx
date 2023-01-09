@@ -7,7 +7,7 @@ import {
     useDisclosure,
     Stack,
     Text,
-    Image,
+    
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
@@ -49,7 +49,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link" target='_blank'><Text>Resume</Text> </a>
+                            <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" ><Text>Resume</Text> </a>
                         </Flex>
                     </Flex>
                     <Box width='5%' justifyContent={'center'} display='flex'>
@@ -64,7 +64,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a href="https://drive.google.com/file/d/1t42g2b_cVik65BL7Yni89_JzRYihcs94/view?usp=share_link"><Text cursor='pointer'>Resume</Text></a>
+                            <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing"><Text cursor='pointer'>Resume</Text></a>
                         </Stack>
                     </Box>
                 ) : null}
