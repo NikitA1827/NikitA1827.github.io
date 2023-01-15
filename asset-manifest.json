@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.8489d24c.css",
-    "main.js": "/static/js/main.f093ab79.js",
+    "main.js": "/static/js/main.17ac0d86.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/maxfashion.png": "/static/media/maxfashion.4f9840d3a2f1ece3676a.png",
+    "static/media/freshly.com.png": "/static/media/freshly.com.0362f24dfee0c1e52eba.png",
     "static/media/NSlogo.gif": "/static/media/NSlogo.625cf509fa97e525bb09.gif",
+    "static/media/react.png": "/static/media/react.22d1f2096ed82cab7a8a.png",
+    "static/media/typescript.png": "/static/media/typescript.8fe41361dff57e3f6c2e.png",
+    "static/media/git.png": "/static/media/git.dbd2947c01fd99256fda.png",
+    "static/media/github.png": "/static/media/github.f188e75061ea931a2cfb.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.8489d24c.css.map": "/static/css/main.8489d24c.css.map",
-    "main.f093ab79.js.map": "/static/js/main.f093ab79.js.map",
+    "main.17ac0d86.js.map": "/static/js/main.17ac0d86.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8489d24c.css",
-    "static/js/main.f093ab79.js"
+    "static/js/main.17ac0d86.js"
   ]
 }
