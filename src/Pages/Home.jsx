@@ -30,7 +30,7 @@ const Home = () => {
                         <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" ><Button size={{ base: 'sm', md: 'md', lg: 'lg' }} mt={{ base: '10px', md: '0' }} colorScheme='teal' gap={1.5}>Resume <VscCloudDownload color="white" /></Button></a>
                     </Box>
                     <Box>
-                        <Image src='https://avatars.githubusercontent.com/u/107980456?v=4' shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} borderRadius='50%' alt="Nikita" />
+                        <Image src='https://avatars.githubusercontent.com/u/107980456?v=4' shadow='lg' mt={{ base: '10px', md: '0px' }} w={{ base: '100px', md: '200px', lg: '350px' }} borderRadius='50%' _hover={{ boxshodow:"lg"}} alt="Nikita" />
                     </Box>
                 </Flex>
             </Box>

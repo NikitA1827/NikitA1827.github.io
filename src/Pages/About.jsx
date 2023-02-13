@@ -40,36 +40,7 @@ web Developer.
             
           </Text>
 
-          {/* <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #WebDesign
-            </Badge>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #tech
-            </Badge>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #DSA
-            </Badge>
-            <Badge
-              px={2}
-              py={1}
-              bg={useColorModeValue('gray.50', 'gray.800')}
-              fontWeight={'400'}>
-              #programmer
-            </Badge>
-          </Stack> */}
+          
 
         </Box>
       </Center>

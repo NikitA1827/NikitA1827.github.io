@@ -4,7 +4,6 @@ import {Skills} from './Pages/Skills';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
-// import './App.css';
 import { useContext, useRef } from 'react';
 import { AppContext } from './Context/Theme.jsx';
 
@@ -29,15 +28,10 @@ function App() {
     color : 'white'
   }
 
-  // const HandleScrollToDefault = ( ) =>{
-  //   window.scrollTo({
-  //     top : document.documentElement.scrollHeight,
-  //     behavior : 'smooth'
-  //   })
-  // }
+  
 
   const HandleScrollTo = (ref) =>{
-    // console.log("Rakesh")
+    
     window.scrollTo({
       top : ref.current.offsetTop,
       behavior : 'smooth'

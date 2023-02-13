@@ -1,4 +1,4 @@
-import logo from '../Images/logo.gif'
+import logo from '../Images/NSlogo.gif'
 import { useContext } from 'react';
 import {
     Box,
@@ -19,17 +19,17 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
     const { Theme, ToggleTheme } = useContext(AppContext)
 
     const light = {
-        backgroundColor: 'white',
+        backgroundColor: 'lavender',
         color: 'black'
     }
 
     const dark = {
-        backgroundColor: 'black',
+        backgroundColor: 'dimgray',
         color: 'white'
     }
     return (
         <>
-            <Box pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar' shadow='lg'>
+            <Box pos='fixed' w='100%' zIndex='99' px={4} style={Theme === 'light' ? light : dark} className='ChackraNavBar nav-menu' shadow='lg'>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton style={Theme === 'light' ? light : dark}
                         size='lg'
@@ -40,7 +40,7 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                     />
                     <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} >
                         <Box p='5px'>
-                            <Image width={{ base: '60px', md: '60px' }} src={logo} />
+                            <Image width={{ base: '62px', md: '62px' }} src={logo} marginTop={-1}/>
                         </Box>
                         <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{ base: '', md: '60%', lg: '40%' }}
                             justifyContent='space-between' alignItems='center' color='' fontWeight='650'>
@@ -49,7 +49,11 @@ export const Navbar = ({ ProfileRef, AboutRef, SkillsRef, ProjectsRef, ContactRe
                             <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
                             <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
                             <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-                            <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" ><Text>Resume</Text> </a>
+                            {/* {/* <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" > */}
+                            
+                            <a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" download onclick="window.open('https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing')"><Text>Resume</Text> </a> 
+
+                            {/* <li><a href="https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing" download onclick="window.open('https://drive.google.com/file/d/1lWuxW9o1UeXgox9j7eB70TeZcsCXvSyh/view?usp=sharing')">Resume</a></li> */}
                         </Flex>
                     </Flex>
                     <Box width='5%' justifyContent={'center'} display='flex'>
